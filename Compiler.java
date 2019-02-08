@@ -2,7 +2,7 @@
 Eric Davis
 N00911966
 Compilers
-Project #1 & 2
+Project #1 & 2 - This is the Parser and Lexical Analyzer of a Compiler
 03/01/2018
 */
 
