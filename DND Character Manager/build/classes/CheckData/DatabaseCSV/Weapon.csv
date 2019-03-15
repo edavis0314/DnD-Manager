@@ -1,0 +1,39 @@
+WeaponID,Name,Cost,MagicItemID,Type,DamType,RangeOfWeapon,DamDie,Weight,NOTES
+0001,Club,1 sp,0000,Simple Melee,Bludgeoning,5 feet,1d4,2 lbs,Light
+0002,Dagger,2 gp,0000,Simple Melee,Piercing,5 feet,1d4,1 lbs,"Finesse, light, thrown (range 20/60)"
+0003,Greatclub,2 sp,0000,Simple Melee,Bludgeoning,5 feet,1d8,10 lbs,Two-handed
+0004,Handaxe,5 gp,0000,Simple Melee,Slashing,5 feet,1d6,2 lbs,"Light, thrown (range 20/60)"
+0005,Javelin,5 sp,0000,Simple Melee,Piercing,5 feet,1d6,2 lbs,Thrown (range 30/120)
+0006,Light Hammer,2 gp,0000,Simple Melee,Bludgeoning,5 feet,1d4,2 lbs,"Light, thrown (range 20/60)"
+0007,Mace,5 gp,0000,Simple Melee,Bludgeoning,5 feet,1d6,4 lbs,No addition effect.
+0008,Quarterstaff,2 sp,0000,Simple Melee,Bludgeoning,5 feet,1d6,2 lbs,Versatile (1d8)
+0009,Sickle,1 gp,0000,Simple Melee,Slashing,5 feet,1d4,3 lbs,Light
+0010,Spear,1 gp,0000,Simple Melee,Piercing,5 feet,1d6,-,"Thrown (range 20/60), versatile (1d8)"
+0011,Unarmed Strike,0 gp,0000,Simple Melee,Bludgeoning,5 feet,1d1,5 lbs,No addition effect.
+0012,"Crossbow, light",25 gp,0000,Simple Ranged,Piercing,-,1d8,0.25 lbs,"Ammunition (range 80/320), loading, two-handed"
+0013,Dart,5 cp,0000,Simple Ranged,Piercing,-,1d4,2 lbs,"Finesse, light, thrown (range 20/60)"
+0014,Shortbow,25 gp,0000,Simple Ranged,Piercing,-,1d6,2 lbs,"Ammunition (range 80/320), two-handed"
+0015,Sling,1 sp,0000,Simple Ranged,Bludgeoning,-,1d4,-,Ammunition (range 30/120)
+0016,Battleaxe,10 gp,0000,Martial Melee,Slashing,5 feet,1d8,4 lbs,Versatile (1d10)
+0017,Flail,10 gp,0000,Martial Melee,Bludgeoning,5 feet,1d8,2 lbs,No addition effect.
+0018,Glaive,20 gp,0000,Martial Melee,Slashing,10 feet,1d10,6 lbs,"Heavy, reach, two-handed"
+0019,Greataxe,30 gp,0000,Martial Melee,Slashing,5 feet,1d12,7 lbs,"Heavy, two-handed"
+0020,Greatsword,50 gp,0000,Martial Melee,Slashing,5 feet,2d6,6 lbs,"Heavy, two-handed"
+0021,Halberd,20 gp,0000,Martial Melee,Slashing,10 feet,1d10,6 lbs,"Heavy, reach, two-handed"
+0022,Lance,10 gp,0000,Martial Melee,Piercing,10 feet,1d12,6 lbs,"Reach, disadvantage on attacks at 5 feet, two-handed when not mounted"
+0023,Longsword,15 gp,0000,Martial Melee,Slashing,5 feet,1d8,3 lbs,Versatile (1d10)
+0024,Maul,10 gp,0000,Martial Melee,Bludgeoning,5 feet,2d6,10 lbs,"Heavy, two-handed"
+0025,Moringstar,15 gp,0000,Martial Melee,Piercing,5 feet,1d8,4 lbs,No addition effect.
+0026,Pike,5 gp,0000,Martial Melee,Piercing,5 feet,1d10,18 lbs,"Heavy, reach, two-handed"
+0027,Rapier,25 gp,0000,Martial Melee,Piercing,5 feet,1d8,2 lbs,Finesse
+0028,Scimitar,25 gp,0000,Martial Melee,Slashing,5 feet,1d6,3 lbs,"Finesse, light"
+0029,Shortsword,10 gp,0000,Martial Melee,Piercing,5 feet,1d6,2 lbs,"Finesse, light"
+0030,Trident,5 gp,0000,Martial Melee,Piercing,5 feet,1d6,4 lbs,"Thrown (range 20/60), versatile (1d8)"
+0031,War Pick,5 gp,0000,Martial Melee,Piercing,5 feet,1d8,2 lbs,No addition effect.
+0032,Warhammer,15 gp,0000,Martial Melee,Bludgeoning,5 feet,1d8,2 lbs,Versatile (1d10)
+0033,Whip,2 gp,0000,Martial Melee,Slashing,10 feet,1d4,3 lbs,"Finesse, reach"
+0034,Blowgun,10 gp,0000,Martial Ranged,Piercing,-,1d1,1 lbs,"Ammunition (range 25/100), loading"
+0035,"Crossbow, hand",75 gp,0000,Martial Ranged,Piercing,-,1d6,3 lbs,"Ammunition (range 30/120), light, loading"
+0036,"Crossbow, heavy",50 gp,0000,Martial Ranged,Piercing,-,1d10,18 lbs,"Ammunition (range 100/400), heavy, loading, two-handed"
+0037,Longbow,50 gp,0000,Martial Ranged,Piercing,-,1d8,2 lbs,"Ammunition (range 150/600), heavy, two-handed"
+0038,Net,1 gp,0001,Martial Ranged,-,-,-,3 lbs,Thrown (range 5/15)

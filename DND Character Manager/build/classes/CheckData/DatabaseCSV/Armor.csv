@@ -1,0 +1,13 @@
+ArmorID,Name,Cost,Stats,MagicItemID,StrRequirement,Stealth,Type,Weight,NOTES
+0001,Padded Armor,5 gp,11,0000,0,0,Light,8 lbs,"Add Dex Modifier, 1 minute to Put on Armor, 1 minute to take off armor."
+0002,Leather Armor,10 gp,11,0000,0,1,Light,10 lbs,"Add Dex Modifier, 1 minute to Put on Armor, 1 minute to take off armor."
+0003,Studded Leather Armor,45 gp,12,0000,0,1,Light,13 lbs,"Add Dex Modifier, 1 minute to Put on Armor, 1 minute to take off armor."
+0004,Hide Armor,10 gp,12,0000,0,1,Medium,12 lbs,"Add Dex Modifier (Max 2), 5 minutes to Put on armor, 1 minute to take off armor"
+0005,Chain Shirt,50 gp,13,0000,0,1,Medium,20 lbs,"Add Dex Modifier (Max 2), 5 minutes to Put on armor, 1 minute to take off armor"
+0006,Scale Mail Armor,50 gp,14,0000,0,0,Medium,45 lbs,"Add Dex Modifier (Max 2), 5 minutes to Put on armor, 1 minute to take off armor"
+0007,Breastplate Armor,400 gp,14,0000,0,1,Medium,20 lbs,"Add Dex Modifier (Max 2), 5 minutes to Put on armor, 1 minute to take off armor"
+0008,Half Plate Armor,750 gp,15,0000,0,0,Medium,40 lbs,"Add Dex Modifier (Max 2), 5 minutes to Put on armor, 1 minute to take off armor"
+0009,Ring Mail Armor,30 gp,14,0000,0,0,Heavy,40 lbs,"10 minutes to put on armor, 5 minutes to take off armor."
+0010,Chain Mail Armor,75 gp,16,0000,13,0,Heavy,55 lbs,"10 minutes to put on armor, 5 minutes to take off armor."
+0011,Splint Armor,200 gp,17,0000,15,0,Heavy,60 lbs,"10 minutes to put on armor, 5 minutes to take off armor."
+0012,Plate Armor,1500 gp,18,0000,15,0,Heavy,65 lbs,"10 minutes to put on armor, 5 minutes to take off armor."
