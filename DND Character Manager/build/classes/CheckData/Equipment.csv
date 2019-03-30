@@ -1,0 +1,299 @@
+EquipmentID,Name,Cost,Weight,MagicItemID,NOTES
+1,Abacus,2 gp,2,0,A tool to do calculations.
+2,Acid (Vial),25 gp,1,0,"As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage."
+3,Alchemist's fire (flask),50 gp,1,0,"This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames."
+4,Amulet - Holy Symbol,5 gp,1,0,"A holy symbol is a representation of a god or pantheon. Appendix B lists the symbols commonly associated with many gods in the multiverse. A cleric or paladin can use a holy symbol as a spellcasting focus, as described in chapter 10. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."
+5,Antitoxion (vial),50 gp,0,0,A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs.
+6,Arrow,5 cp,0.05,0,Needed to use a Bow.
+7,Arrows (20),1 gp,1,0,Bundle of Arrows.
+8,Backpack,2 gp,5,0,1 cubic foot/30 pounds of gear
+9,Ball bearing,0.1 cp,0.002,0,"As an action, you can spill these tiny metal balls from their pouch to cover a level area 10 feet square. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn't need to make the saving throw."
+10,Ball bearings (1000),1 gp,2,0,"As an action, you can spill these tiny metal balls from their pouch to cover a level area 10 feet square. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn't need to make the saving throw."
+11,Barrel,2 gp,70,0,"40 gallons liquid, 4 cubic feet solid"
+12,Basic Poison (vial),100 gp,0,0,"You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying."
+13,Basket,4 sp,2,0,2 cubic feet/40 pounds of gear
+14,Bedroll,1 gp,7,0,Sleeping bag used typically while traveling.
+15,Bell,1 gp,0,0,Small bell. Can be made of most metals.
+16,Blanket,5 sp,3,0,A Piece of fabric that can be used to keep warm.
+17,Block and tackle,1 gp,5,0,"A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift."
+18,Blowgun needle,2 cp,0.02,0,Needed to use a Blowgun.
+19,Blowgun needles (50),1 gp,1,0,Pack of Needles.
+20,Book,25 gp,5,0,"A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook (described later in this section)."
+21,"Bottle, glass",2 gp,2,0,1 1/2 pints liquid
+22,Bucket,5 cp,2,0,"3 gallons liquid, 1/2 cubic foot solid"
+23,Burglar's Pack,16 gp,46.5,0,"Includes a backpack, a bag of 1,000 ball bearings, 10 feet of string, a bell, 5 candles, a crowbar, a hammer, 10 pitons, a hooded lantern, 2 flasks of oil, 5 days rations, a tinderbox, and a waterskin. The pack also has 50 feet of hempen rope strapped to the side of it."
+24,Caltrop,5 cp,0.1,0,"As an action, you can spread a single bag of caltrops to cover a 5-foot-square area. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving and take 1 piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn't need to make the saving throw."
+25,Caltrops (20),1 gp,2,0,"As an action, you can spread a single bag of caltrops to cover a 5-foot-square area. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving and take 1 piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn't need to make the saving throw."
+26,Candle,1 cp,0,0,"For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet."
+27,Case - crossbow bolt,1 gp,1,0,This wooden case can hold up to twenty crossbow bolts.
+28,Case - map or scroll,1 gp,1,0,This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.
+29,Chain (1 foot),5 sp,1,0,A chain has 10 hit points. It can be burst with a successful DC 20 Strength check.
+30,Chain (10 feet),5 gp,10,0,A chain has 10 hit points. It can be burst with a successful DC 20 Strength check.
+31,Chalk,1 cp,0,0,Can be used to write on surfaces
+32,Chest,5 gp,25,0,12 cubic feet/300 pounds of gear
+33,Climber's Kit,25 gp,12,0,"A climber's kit includes special pitons, boot tips, gloves, and a harness. You can use the climber's kit as an action to anchor yourself; when you do, you can't fall more than 25 feet from the point where you anchored yourself, and you can't climb more than 25 feet away from that point without undoing the anchor."
+34,Common Clothes,5 sp,3,0,Everyday clothes
+35,Component Pouch,25 gp,2,0,"A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell's description)."
+36,Costume Clothes,5 gp,4,0,Clothes that can be used when wanting to wear a costume.
+37,Crossbow bolt,5 cp,0.075,0,Needed to use a Crossbow.
+38,Crossbow bolts (20),1 gp,1.5,0,Bundle of Bolts
+39,Crowbar,2 gp,5,0,Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied.
+40,Crystal - Arcane Focus,10 gp,1,0,"An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in chapter 10."
+41,Diplomat's Pack,39 gp,46,0,"Includes a chest, 2 cases for maps and scrolls, a set of fine clothes, a bottle of ink, an ink pen, a lamp, 2 flasks of oil, 5 sheets of paper, a vial of perfume, sealing wax, and soap."
+42,Dungeoneer's Pack,12 gp,61.5,0,"Includes a backpack, a crowbar, a hammer, 10 pitons, 10 torches, a tinderbox, 10 days of rations, and a waterskin. The pack also has 50 feet of hempen rope strapped to the side of it."
+43,Emblem - Holy Symbol,5 gp,0,0,"A holy symbol is a representation of a god or pantheon. Appendix B lists the symbols commonly associated with many gods in the multiverse. A cleric or paladin can use a holy symbol as a spellcasting focus, as described in chapter 10. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."
+44,Entertainer's Pack,40 gp,38,0,"Includes a backpack, a bedroll, 2 costumes, 5 candles, 5 days of rations, a waterskin, and a disguise kit."
+45,Explorer's Pack,10 gp,59,0,"Includes a backpack, a bedroll, a mess kit, a tinderbox, 10 torches, 10 days of rations, and a waterskin. The pack also has 50 feet of hempen rope strapped to the side of it."
+46,Fine Clothes,15 gp,6,0,Very fine clothes. You can look very fancy in these.
+47,Fishing Tackle,1 gp,4,0,"This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting."
+48,Flask,2 cp,1,0,1 pint liquid
+49,Grappling Hook,2 gp,4,0,A hook that can be hitched into a suface.
+50,Hammer,1 gp,3,0,A standard hammer.
+51,Hammer - Sledge,2 gp,10,0,Very Large standard hammer.
+52,Healer's Kit,5 gp,3,0,"This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check."
+53,Hempen Rope (1 foot),2 cp,0.2,0,Rope has 2 hit points and can be burst with a DC 17 Strength check.
+54,Hempen Rope (50 feet),1 gp,10,0,Rope has 2 hit points and can be burst with a DC 17 Strength check.
+55,Holy Water (flask),25 gp,1,0,"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage. A cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot."
+56,Hourglass,25 gp,1,0,Can be used to track a specific set of time (DM controls length)
+57,Hunting trap,5 gp,25,0,"When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature."
+58,Ink (1 ounce bottle),10 gp,0,0,Needed to write
+59,Ink pen,2 cp,0,0,Needed to write
+60,Iron Pot,1 gp,10,0,1 gallon liquid
+61,Iron Spike ,1 sp,0.5,0,Small piece of hard metal
+62,Iron Spikes (10),1 gp,5,0,Bag of Spikes
+63,Jug,2 cp,4,0,1 gallon liquid
+64,Ladder (10-foot),1 sp,25,0,Its a Ladder
+65,Ladder (1-foot),1 cp,2.5,0,Its a Ladder
+66,Lamp,5 sp,1,0,"A lamp casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil."
+67,Lantern- bullseye,10 gp,2,0,"A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil."
+68,Lanture - Hooded,5 gp,2,0,"A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius."
+69,Lock,10 gp,1,0,"A key is provided with the lock. Without the key, a creature proficient with thieves' tools can pick this lock with a successful DC 15 Dexterity check. Your DM may decide that better locks are available for higher prices."
+70,Magnifying Glass,100 gp,0,0,"This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite. A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed."
+71,Manacles,2 gp,6,0,"These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check. Each set of manacles comes with one key. Without the key, a creature proficient with thieves' tools can pick the manacles' lock with a successful DC 15 Dexterity check. Manacles have 15 hit points."
+72,Merchants's Scale,5 gp,3,0,"A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth."
+73,Mess Kit,2 sp,1,0,"This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl."
+74,Miner's Pick,2 gp,10,0,A pick that can be used to break up other objects.
+75,Mirror - Steel,5 gp,0.5,0,A steel backed Mirror
+76,Monster Hunter's Pack,33 gp,48.5,0,"Includes a chest, a crowbar, a hammer, 3 wooden stakes, a holy symbol, a flask of holy water, a set of manacles, a silver mirror, a flask of oil, a tinderbox, and 3 torches."
+77,Oil (flask),1 sp,1,0,"Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon. On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level. If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn."
+78,Orb - Arcane Focus,20 gp,3,0,"An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in chapter 10."
+79,Paper (one sheet),2 sp,0,0,A regular piece of paper
+80,Parchment (one sheet),1 sp,0,0,A regular piece of parchment
+81,perfume (vial),5 gp,0,0,A vial that make you smell different than you usually do.
+82,Pitcher,2 cp,4,0,1 gallon liquid
+83,Piton,5 cp,0.25,0,Used to get a liquid out of a wooden object.
+84,Pole (1 foot),0.5 cp,0.7,0,Its a stick
+85,Pole (10 foot),5 cp,7,0,Its a long stick
+86,Portable Ram,4 gp,35,0,"You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check."
+87,Potion of Healing,50 gp,0.5,0,A character who drinks the magical red fluid in this vial regains 2d4 + 2 hit points. Drinking or administering a potion takes an action.
+88,Pouch,5 sp,1,0,"A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch (described earlier in this section). 1/5 cubic foot/6 pounds of gear"
+89,Priest's Pack,19 gp,25,0,"Includes a backpack, a blanket, 10 candles, a tinderbox, an alms box, 2 blocks of incense, a censer, vestments, 2 days of rations, and a waterskin."
+90,Quiver,1 gp,1,0,A quiver can hold up to 20 arrows.
+91,Rations (1 day),5 sp,2,0,"Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts."
+92,Reliquary - Holy Symbol,5 gp,2,0,"A holy symbol is a representation of a god or pantheon. Appendix B lists the symbols commonly associated with many gods in the multiverse. A cleric or paladin can use a holy symbol as a spellcasting focus, as described in chapter 10. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."
+93,Robes,1 gp,4,0,It can be used to cover oneself.
+94,Rod - Arcane Focus,10 gp,2,0,"An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in chapter 10."
+95,Sack,1 cp,0.5,0,1 cubic foot/30 pounds of gear
+96,Scholar's Pack,40 gp,11,0,"Includes a backpack, a book of lore, a bottle of ink, an ink pen, 10 sheets of parchment, a little bag of sand, and a small knife."
+97,Sealing Wax,5 sp,0,0,This is typically used to seal letters.
+98,Shield,10 gp,6,27,This is an ordinary piece of equipment.
+99,Shovel,2 gp,5,0,Can be used to dig dirt.
+100,Signal whistle,5 cp,0,0,A loud whistle
+101,Signet ring,5 gp,0,0,A ordinary ring.
+102,Silk Rope (1 Foot),2 sp,0.1,0,Rope has 2 hit points and can be burst with a DC 17 Strength check.
+103,Silk Rope (50 feet),10 gp,5,0,Rope has 2 hit points and can be burst with a DC 17 Strength check.
+104,Sling bullet,0.2 cp,0.075,0,Needed to use a sling
+105,Sling bullets (20),4 cp,1.5,0,Bag of bullets
+106,Soap,2 cp,0,0,Used to clean the body.
+107,Spellbook,50 gp,3,0,"Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells."
+108,Sprig of mistletoe - Druidic Focus,1 gp,0,0,"A druid can use such an object as a spellcasting focus, as described in chapter 10."
+109,Spyglass,1000 gp,1,0,Objects viewed through a spyglass are magnified to twice their size.
+110,Staff - Arcane Focus,5 gp,4,0,"An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in chapter 10."
+111,Tankard,2 cp,1,0,1 pint liquid
+112,Tinderbox,5 sp,1,0,"This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch—or anything else with abundant, exposed fuel—takes an action. Lighting any other fire takes 1 minute."
+113,Torch,1 cp,1,0,"A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage."
+114,Totem - Druidic Focus,1 gp,0,0,"A druid can use such an object as a spellcasting focus, as described in chapter 10."
+115,Traveler's Clothes,2 gp,4,0,Clothes made spicifically for going long distances.
+116,Two-person Tent,2 gp,20,0,"A simple and portable canvas shelter, a tent sleeps two."
+117,Vial,1 gp,0,0,4 ounces liquid
+118,Wand - Arcane Focus,10 gp,1,0,"An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in chapter 10."
+119,Waterskin,2 sp,1,0,Can hold upto 4 pints of water. (1 pint = 1 lbs)
+120,Whetstone,1 cp,1,0,Used to sharpen metal weapons. Must have water to use effectively. (DM ruling)
+121,Wooden Staff - Druidic Focus,5 gp,4,0,"A druid can use such an object as a spellcasting focus, as described in chapter 10."
+122,Yew wand - Druidic Focus,10 gp,1,0,"A druid can use such an object as a spellcasting focus, as described in chapter 10."
+123,Alchemist's supplies,50 gp,8,0,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. (Separate proficiencies)
+124,Brewer's supplies,20 gp,9,0,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. (Separate proficiencies)
+125,Calligrapher's supplies,10 gp,5,0,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. (Separate proficiencies)
+126,Carpenter's tools,8 gp,6,0,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. (Separate proficiencies)
+127,Cartographer's tools,15 gp,6,0,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. (Separate proficiencies)
+128,Cobbler's tools,5 gp,5,0,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. (Separate proficiencies)
+129,Cook's utensils,1 gp,8,0,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. (Separate proficiencies)
+130,Glassblower's tools,30 gp,5,0,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. (Separate proficiencies)
+131,Jeweler's tools,25 gp,2,0,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. (Separate proficiencies)
+132,Leatherworker's tools,5 gp,5,0,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. (Separate proficiencies)
+133,Mason's tools,10 gp,8,0,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. (Separate proficiencies)
+134,Painter's supplies,10 gp,5,0,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. (Separate proficiencies)
+135,Potter's tools,10 gp,3,0,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. (Separate proficiencies)
+136,Smith's tools,20 gp,8,0,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. (Separate proficiencies)
+137,Tinker's tools,50 gp,10,0,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. (Separate proficiencies)
+138,Weaver's tools,1 gp,5,0,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. (Separate proficiencies)
+139,Woodcarver's tools,1 gp,5,0,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. (Separate proficiencies)
+140,Disguise kit,25 gp,3,0,"This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise."
+141,Forgery kit,15 gp,5,0,"This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document."
+142,Dice set,1 sp,0,0,"This item encompasses a wide range of game pieces, including dice and decks of cards. A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."
+143,Dragonchess set,1 gp,0.5,0,"This item encompasses a wide range of game pieces, including dice and decks of cards. A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."
+144,Playing card set,5 sp,0,0,"This item encompasses a wide range of game pieces, including dice and decks of cards. A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."
+145,Three-Dragon Ante set,1 gp,0,0,"This item encompasses a wide range of game pieces, including dice and decks of cards. A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."
+146,Herbalism kit,5 gp,3,0,"This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing."
+147,Bagpipes,30 gp,6,0,"Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus, as described in chapter 10. Each type of musical instrument requires a separate proficiency."
+148,Drum,6 gp,3,0,"Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus, as described in chapter 10. Each type of musical instrument requires a separate proficiency."
+149,Dulcimer,25 gp,10,0,"Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus, as described in chapter 10. Each type of musical instrument requires a separate proficiency."
+150,Flute,2 gp,1,0,"Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus, as described in chapter 10. Each type of musical instrument requires a separate proficiency."
+151,Lute,35 gp,2,0,"Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus, as described in chapter 10. Each type of musical instrument requires a separate proficiency."
+152,Lyre,30 gp,2,0,"Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus, as described in chapter 10. Each type of musical instrument requires a separate proficiency."
+153,Horn,3 gp,2,0,"Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus, as described in chapter 10. Each type of musical instrument requires a separate proficiency."
+154,Pan flute,12 gp,2,0,"Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus, as described in chapter 10. Each type of musical instrument requires a separate proficiency."
+155,Shawm,2 gp,1,0,"Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus, as described in chapter 10. Each type of musical instrument requires a separate proficiency."
+156,Viol,30 gp,1,0,"Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus, as described in chapter 10. Each type of musical instrument requires a separate proficiency."
+157,Navigator's tools,25 gp,2,0,"This set of instruments is used for navigation at sea. Proficiency with navigator's tools lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea."
+158,Poisoner's kit,50 gp,2,0,"A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons."
+159,Thieves' tools,25 gp,1,0,"This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks."
+160,Bit and bridle,2 gp,1,0,Equipment for Mounts. Must own mount to use these tools.
+161,Carriage,100 gp,600,0,Equipment for Mounts. Must own mount to use these tools.
+162,Cart,15 gp,200,0,Equipment for Mounts. Must own mount to use these tools.
+163,Chariot,250 gp,100,0,Equipment for Mounts. Must own mount to use these tools.
+164,Feed (per day),5 cp,10,0,Equipment for Mounts. Must own mount to use these tools.
+165,Griffon Feed (per day),20 cp,10,0,Equipment for Mounts. Must own mount to use these tools.
+166,Exotic Saddle,60 gp,40,0,Equipment for Mounts. Must own mount to use these tools. An exotic saddle is required for riding any aquatic or flying mount.
+167,Military Saddle,20 gp,30,0,"Equipment for Mounts. Must own mount to use these tools. A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted."
+168,Pack Saddle,5 gp,15,0,Equipment for Mounts. Must own mount to use these tools.
+169,Riding Saddle,10 gp,25,0,Equipment for Mounts. Must own mount to use these tools.
+170,Saddlebags,4 gp,8,0,Equipment for Mounts. Must own mount to use these tools.
+171,Sled,20 gp,300,0,Equipment for Mounts. Must own mount to use these tools.
+172,Stabling (per day),5 sp,0,0,Equipment for Mounts. Must own mount to use these tools.
+173,Wagon,35 gp,400,0,Equipment for Mounts. Must own mount to use these tools.
+174,Wheat,1 cp,1,0,1 lb. of wheat - Trading Goods
+175,Flour,2 cp,1,0,1 lb. of flour - Trading Goods
+176,Chicken,2 cp,8,0,One Chicken - Trading Goods
+177,Salt,5 cp,1,0,1 lb. of salt - Trading Goods
+178,Iron,1 sp,1,0,1 lb. of iron - Trading Goods
+179,Canvas,1 sp,0.5,0,1 sq. yd. of canvas - Trading Goods
+180,Copper,5 sp,1,0,1 lb. of copper - Trading Goods
+181,Cotton Cloth,5 sp,0.4,0,1 sq. yd. of cotton cloth - Trading Goods
+182,Ginger,1 gp,1,0,1 lb. of ginger - Trading Goods
+183,Goat,1 gp,310,0,One goat - Trading Goods
+184,Cinnamon,2 gp,1,0,1 lb. of cinnamon - Trading Goods
+185,Pepper,2 gp,1,0,1 lb. of pepper - Trading Goods
+186,Sheep,2 gp,250,0,One sheep - Trading Goods
+187,Cloves,3 gp,1,0,1 lb. of cloves - Trading Goods
+188,Pig,3 gp,280,0,One pig - Trading Goods
+189,Silver,5 gp,1,0,1 lb. of silver - Trading Goods
+190,Linen,5 gp,0.0625,0,1 sq. yd. of linen - Trading Goods
+191,Silk,10 gp,0.0625,0,1 sq. yd. of silk - Trading Goods
+192,Cow,10 gp,2000,0,One cow - Trading Goods
+193,Saffron,15 gp,1,0,1 lb. of saffron - Trading Goods
+194,Ox,15 gp,2000,0,One ox - Trading Goods
+195,Gold,50 gp,1,0,1 lb. of gold - Trading Goods
+196,Platinum,500 gp,1,0,1 lb. of platinum - Trading Goods
+197,A mummified goblin hand,-,0,0,A Random Trinket from somewhere
+198,A piece of crystal that faintly glows in the moonlight,-,0,0,A Random Trinket from somewhere
+199,A gold coin minted in an unknown land,-,0,0,A Random Trinket from somewhere
+200,A diary written in a language you don't know,-,0,0,A Random Trinket from somewhere
+201,A brass ring that never tarnishes,-,0,0,A Random Trinket from somewhere
+202,An old chess piece made from glass,-,0,0,A Random Trinket from somewhere
+203,"A pair of knucklebone dice, each with a skull symbol on the side that would normally show six pips",-,0,0,A Random Trinket from somewhere
+204,A small idol depicting a nightmarish,-,0,0,A Random Trinket from somewhere
+205,creature that gives you unsettling dreams when you sleep near it,-,0,0,A Random Trinket from somewhere
+206,A rope necklace from which dangles four mummified elf fingers,-,0,0,A Random Trinket from somewhere
+207,The deed for a parcel of land in a realm unknown to you,-,0,0,A Random Trinket from somewhere
+208,A 1-ounce block made from an unknown material,-,0,0,A Random Trinket from somewhere
+209,A small cloth doll skewered with needles,-,0,0,A Random Trinket from somewhere
+210,A tooth from an unknown beast,-,0,0,A Random Trinket from somewhere
+211,"An enormous scale, perhaps from a dragon",-,0,0,A Random Trinket from somewhere
+212,A bright green feather,-,0,0,A Random Trinket from somewhere
+213,An old divination card bearing your likeness,-,0,0,A Random Trinket from somewhere
+214,A glass orb filled with moving smoke,-,0,0,A Random Trinket from somewhere
+215,A 1-pound egg with a bright red shell,-,0,0,A Random Trinket from somewhere
+216,A pipe that blows bubbles,-,0,0,A Random Trinket from somewhere
+217,A glass jar containing a weird bit of flesh floating in pickling fluid,-,0,0,A Random Trinket from somewhere
+218,A tiny gnome-crafted music box that plays a song you dimly remember from your childhood,-,0,0,A Random Trinket from somewhere
+219,A small wooden statuette of a smug halfling,-,0,0,A Random Trinket from somewhere
+220,A brass orb etched with strange runes,-,0,0,A Random Trinket from somewhere
+221,A multicolored stone disk,-,0,0,A Random Trinket from somewhere
+222,A tiny silver icon of a raven,-,0,0,A Random Trinket from somewhere
+223,"A bag containing forty-seven humanoid teeth, one of which is rotten",-,0,0,A Random Trinket from somewhere
+224,A shard of obsidian that always feels warm to the touch,-,0,0,A Random Trinket from somewhere
+225,A dragon's bony talon hanging from a plain leather necklace,-,0,0,A Random Trinket from somewhere
+226,A pair of old socks,-,0,0,A Random Trinket from somewhere
+227,"A blank book whose pages refuse to hold ink, chalk, graphite, or any other substance for marking",-,0,0,A Random Trinket from somewhere
+228,A silver badge in the shape of a five-pointed star,-,0,0,A Random Trinket from somewhere
+229,A knife that belonged to a relative,-,0,0,A Random Trinket from somewhere
+230,A glass vial filled with nail clippings,-,0,0,A Random Trinket from somewhere
+231,A rectangular metal device with two tiny metal cups on one end that throws sparks when wet,-,0,0,A Random Trinket from somewhere
+232,"A white, sequined glove sized for a human",-,0,0,A Random Trinket from somewhere
+233,A vest with one hundred tiny pockets,-,0,0,A Random Trinket from somewhere
+234,"A small, weightless stone block",-,0,0,A Random Trinket from somewhere
+235,A tiny sketch portrait of a goblin,-,0,0,A Random Trinket from somewhere
+236,An empty glass vial that smells of perfume when opened,-,0,0,A Random Trinket from somewhere
+237,A gemstone that looks like a lump of coal when examined by anyone but you,-,0,0,A Random Trinket from somewhere
+238,A scrap of cloth from an old banner,-,0,0,A Random Trinket from somewhere
+239,A rank insignia from a lost legionnaire,-,0,0,A Random Trinket from somewhere
+240,A tiny silver bell without a clapper,-,0,0,A Random Trinket from somewhere
+241,A mechanical canary inside a gnomish lamp,-,0,0,A Random Trinket from somewhere
+242,A tiny chest carved to look like it has numerous feet on the bottom,-,0,0,A Random Trinket from somewhere
+243,A dead sprite inside a clear glass bottle,-,0,0,A Random Trinket from somewhere
+244,"A metal can that has no opening but sounds as if it is filled with liquid, sand, spiders, or broken glass (your choice)",-,0,0,A Random Trinket from somewhere
+245,"A glass orb filled with water, in which swims a clockwork goldfish",-,0,0,A Random Trinket from somewhere
+246,A silver spoon with an M engraved on the handle,-,0,0,A Random Trinket from somewhere
+247,A whistle made from gold-colored wood,-,0,0,A Random Trinket from somewhere
+248,A dead scarab beetle the size of your hand,-,0,0,A Random Trinket from somewhere
+249,"Two toy soldiers, one with a missing head",-,0,0,A Random Trinket from somewhere
+250,A small box filled with different-sized buttons,-,0,0,A Random Trinket from somewhere
+251,A candle that can't be lit,-,0,0,A Random Trinket from somewhere
+252,A tiny cage with no door,-,0,0,A Random Trinket from somewhere
+253,An old key,-,0,0,A Random Trinket from somewhere
+254,An indecipherable treasure map,-,0,0,A Random Trinket from somewhere
+255,A hilt from a broken sword,-,0,0,A Random Trinket from somewhere
+256,A rabbit's foot,-,0,0,A Random Trinket from somewhere
+257,A glass eye,-,0,0,A Random Trinket from somewhere
+258,A cameo carved in the likeness of a hideous person,-,0,0,A Random Trinket from somewhere
+259,A silver skull the size of a coin,-,0,0,A Random Trinket from somewhere
+260,An alabaster mask,-,0,0,A Random Trinket from somewhere
+261,A pyramid of sticky black incense that smells very bad,-,0,0,A Random Trinket from somewhere
+262,"A nightcap that, when worn, gives you pleasant dreams",-,0,0,A Random Trinket from somewhere
+263,A single caltrop made from bone,-,0,0,A Random Trinket from somewhere
+264,A gold monocle frame without the lens,-,0,0,A Random Trinket from somewhere
+265,"A 1-inch cube, each side painted a different color",-,0,0,A Random Trinket from somewhere
+266,A crystal knob from a door,-,0,0,A Random Trinket from somewhere
+267,A small packet filled with pink dust,-,0,0,A Random Trinket from somewhere
+268,"A fragment of a beautiful song, written as musical notes on two pieces of parchment",-,0,0,A Random Trinket from somewhere
+269,A silver teardrop earring made from a real teardrop,-,0,0,A Random Trinket from somewhere
+270,The shell of an egg painted with scenes of human misery in disturbing detail,-,0,0,A Random Trinket from somewhere
+271,"A fan that, when unfolded, shows a sleeping cat",-,0,0,A Random Trinket from somewhere
+272,A set of bone pipes,-,0,0,A Random Trinket from somewhere
+273,A four-leaf clover pressed inside a book discussing manners and etiquette,-,0,0,A Random Trinket from somewhere
+274,A sheet of parchment upon which is drawn a complex mechanical contraption,-,0,0,A Random Trinket from somewhere
+275,An ornate scabbard that fits no blade you have found so far,-,0,0,A Random Trinket from somewhere
+276,An invitation to a party where a murder happened,-,0,0,A Random Trinket from somewhere
+277,A bronze pentacle with an etching of a rat's head in its center,-,0,0,A Random Trinket from somewhere
+278,A purple handkerchief embroidered with the name of a powerful archmage,-,0,0,A Random Trinket from somewhere
+279,"Half of a floorplan for a temple, castle, or some other structure",-,0,0,A Random Trinket from somewhere
+280,"A bit of folded cloth that, when unfolded, turns into a stylish cap",-,0,0,A Random Trinket from somewhere
+281,A receipt of deposit at a bank in a far-flung city,-,0,0,A Random Trinket from somewhere
+282,A diary with seven missing pages,-,0,0,A Random Trinket from somewhere
+283,"An empty silver snuffbox bearing an inscription on the surface that says ""dreams''",-,0,0,A Random Trinket from somewhere
+284,An iron holy symbol devoted to an unknown god,-,0,0,A Random Trinket from somewhere
+285,A book that tells the story of a legendary hero's rise,-,0,0,A Random Trinket from somewhere
+286,"and fall, with the last chapter missing",-,0,0,A Random Trinket from somewhere
+287,A vial of dragon blood,-,0,0,A Random Trinket from somewhere
+288,An ancient arrow of elven design,-,0,0,A Random Trinket from somewhere
+289,A needle that never bends,-,0,0,A Random Trinket from somewhere
+290,An ornate brooch of dwarven design,-,0,0,A Random Trinket from somewhere
+291,"An empty wine bottle bearing a pretty label that says, ""The Wizard of Wines Winery, Red Dragon Crush, 331422-W""",-,0,0,A Random Trinket from somewhere
+292,"A mosaic tile with a multicolored, glazed surface",-,0,0,A Random Trinket from somewhere
+293,A petrified mouse,-,0,0,A Random Trinket from somewhere
+294,A black pirate flag adorned with a dragon's skull and crossbones,-,0,0,A Random Trinket from somewhere
+295,A tiny mechanical crab or spider that moves about when it's not being observed,-,0,0,A Random Trinket from somewhere
+296,"A glass jar containing lard with a label that reads, ""Griffon Grease""",-,0,0,A Random Trinket from somewhere
+297,A wooden box with a ceramic bottom that holds a living worm with a head on each end of its body,-,0,0,A Random Trinket from somewhere
+298,A metal urn containing the ashes of a hero,-,0,0,A Random Trinket from somewhere

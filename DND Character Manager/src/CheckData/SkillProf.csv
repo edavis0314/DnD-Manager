@@ -1,0 +1,25 @@
+SkillProfID,Name,Type
+0001,Acrobatics,Skill
+0002,Animal Handling,Skill
+0003,Arcana,Skill
+0004,Athletics,Skill
+0005,Deception,Skill
+0006,History,Skill
+0007,Insight,Skill
+0008,Intimidation,Skill
+0009,Investigation,Skill
+0010,Medicine,Skill
+0011,Nature,Skill
+0012,Perception,Skill
+0013,Performance,Skill
+0014,Persuasion,Skill
+0015,Religion,Skill
+0016,Sleight of Hand,Skill
+0017,Stealth,Skill
+0018,Survival,Skill
+0019,Strength,Stat
+0020,Dexterity,Stat
+0021,Constitution,Stat
+0022,Intelligence,Stat
+0023,Wisdom,Stat
+0024,Charisma,Stat
