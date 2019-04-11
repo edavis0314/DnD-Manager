@@ -1,10 +1,10 @@
 /* SECTION 0: Manage Tables and Database ****   */
-/*Drop Database CharacterManager;
+/*Drop Database CharacterManager;*/
 Create Database CharacterManager;
-Use CharacterManager;*/
+Use CharacterManager;
 
 /* SECTION 1: Main Data *********************   */
-/*Create Table Players(Username varchar (36) NOT NULL, Password varchar (36) NOT NULL, PlayerID int NOT NULL, Primary Key(PlayerID));
+Create Table Players(Username varchar (36) NOT NULL, Password varchar (36) NOT NULL, PlayerID int NOT NULL, Primary Key(PlayerID));
 Create Table PlayerName(PlayerID int NOT NULL, PlayerName text NOT NULL, foreign key(PlayerID) references Players(PlayerID));
 Create Table Characters(PlayerID int NOT NULL, CharacterID int NOT NULL, primary key(CharacterID), foreign key(PlayerID) references Players(PlayerID));
 Create Table Money(CharacterID int NOT NULL, Copper int NOT NULL, Silver int NOT NULL, Elirium int NOT NULL, Gold int NOT NULL, Platnium int NOT NULL, foreign key(CharacterID) references Characters(CharacterID));
@@ -27,7 +27,7 @@ Create Table ArmorRecord(CharacterID int NOT NULL, Amount int not null, ArmorID 
 Create Table WeaponRecord(CharacterID int NOT NULL, Amount int not null, WeaponID int NOT NULL, foreign key(CharacterID) references Characters(CharacterID), foreign key(WeaponID) references Weapon(WeaponID));
 Create Table AllyRecord(CharacterID int NOT NULL, AllyID int NOT NULL, foreign key(CharacterID) references Characters(CharacterID), foreign key(AllyID) references Ally(AllyID));
 Create Table FeatRecord(CharacterID int NOT NULL, FeatID int NOT NULL, foreign key(CharacterID) references Characters(CharacterID), foreign key(FeatID) references Feat(FeatID));
-Create Table MagicRecord(CharacterID int NOT NULL, MagicID int NOT NULL, foreign key(CharacterID) references Characters(CharacterID), foreign key(MagicID) references Magic(MagicID));*/
+Create Table MagicRecord(CharacterID int NOT NULL, MagicID int NOT NULL, foreign key(CharacterID) references Characters(CharacterID), foreign key(MagicID) references Magic(MagicID));
 
 
 /* SECTION 2: Monster Data ******************   */
@@ -43,11 +43,10 @@ Create Table MagicRecord_Monster();*/
 
 
 /* SECTION 3: Extra Data ********************   */
-/*Create Table NameSuggestions(Name varchar (100) not null, Race varchar (100) not null,  TypeOfName varchar (100) not null, Primary Key(Name, Race, TypeOfName));*/
+Create Table NameSuggestions(Name varchar (100) not null, Race varchar (100) not null,  TypeOfName varchar (100) not null, Primary Key(Name, Race, TypeOfName));
 
 
 /* SECTION 5: Print Data ********************   */
-Use CharacterManager;
 Select * From Players;
 Select * From PlayerName;
 Select * From Characters;
