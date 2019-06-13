@@ -44,8 +44,7 @@ public class Character { //Add ArrayList Constructors
     int[] SkillMod = new int[18];
     int[] SkillProf = new int[18];
     double[] Money = new double[5];
-    ArrayList<Character> AllyList = new ArrayList<>();
-    ArrayList<LangAndProf> LangAndProfList = new ArrayList<>();
+    ArrayList<Ally> AllyList = new ArrayList<>();
     ArrayList<Magic> MagicList = new ArrayList<>();
     ArrayList<Equipment> EquipmentList = new ArrayList<>();
     ArrayList<Weapon> WeaponList = new ArrayList<>();

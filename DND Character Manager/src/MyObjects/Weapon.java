@@ -41,4 +41,10 @@ public class Weapon {//Add EffectList Constructors
     public void SetAmount (int Amount){
         this.Amount = Amount;
     }
+    public void SetEffect (String Discription, int Slots){
+        Effect Effect = new Effect();
+        Effect.SetEffect(Discription);
+        Effect.SetSlots(Slots);
+        this.EffectList.add(Effect);
+    }
 }

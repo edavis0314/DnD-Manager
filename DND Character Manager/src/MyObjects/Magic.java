@@ -1,6 +1,6 @@
 package MyObjects;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class Magic {// Set EffectList Contructors
     String Name;
@@ -44,5 +44,11 @@ public class Magic {// Set EffectList Contructors
     }
     public void SetLevelRequirment (int LevelRequirment){
         this.LevelRequirment = LevelRequirment;
+    }
+    public void SetEffect (String Discription, int Slots){
+        Effect Effect = new Effect();
+        Effect.SetEffect(Discription);
+        Effect.SetSlots(Slots);
+        this.EffectList.add(Effect);
     }
 }
