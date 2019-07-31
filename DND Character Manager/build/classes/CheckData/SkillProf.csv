@@ -1,0 +1,41 @@
+SkillProfID,Name,Type
+1,Acrobatics,Skill
+2,"Animal Handling",Skill
+3,Arcana,Skill
+4,Athletics,Skill
+5,Deception,Skill
+6,History,Skill
+7,Insight,Skill
+8,Intimidation,Skill
+9,Investigation,Skill
+10,Medicine,Skill
+11,Nature,Skill
+12,Perception,Skill
+13,Performance,Skill
+14,Persuasion,Skill
+15,Religion,Skill
+16,"Sleight of Hand",Skill
+17,Stealth,Skill
+18,Survival,Skill
+19,Strength,Stat
+20,Dexterity,Stat
+21,Constitution,Stat
+22,Intelligence,Stat
+23,Wisdom,Stat
+24,Charisma,Stat
+25,Common,"Language, This language is typically spoken by Humans. This language uses Common script."
+26,Dwarvish,"Language, This language is typically spoken by Dwarves. This language uses Dwarvish Script."
+27,Elvish,"Language, This language is typically spoken by Elves. This language uses Elvish Script."
+28,Giant,"Language, This language is typically spoken by Orgres and Giants. This language uses Dwarvish Script."
+29,Gnomish,"Language, This language is typically spoken by Gnomes. This language uses Dwarvish Script."
+30,Goblin,"Language, This language is typically spoken by Goblinoids. This language uses Dwarvish Script."
+31,Halfling,"Language, This language is typically spoken by Halflings. This language uses Common Script."
+32,Orc,"Language, This language is typically spoken by Orcs. This language uses Dwarvish Script."
+33,Abyssal,"Language, This language is typically spoken by Demons. This language uses Infernal Script."
+34,Celestial,"Language, This language is typically spoken by Celestials. This language uses Celestial Script."
+35,"Deep Speech","Language, This language is typically spoken by Mind Flayers and Beholders. This language does not have a scipted form."
+36,Draconic,"Language, This language is typically spoken by Dragons and Dragonborn. This language uses Draconic Script."
+37,Infernal,"Language, This language is typically spoken by Devils. This language uses Infernal Script."
+38,Primordial,"Language, This language is typically spoken by Elementals. This language uses Dwarvish Script."
+39,Sylvan,"Language, This language is typically spoken by Fey Creatures. This language uses Elvish Script."
+40,Undercommon,"Language, This language is typically spoken by Underdark Traders. This language uses Elvish Script."
