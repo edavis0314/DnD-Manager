@@ -1,7 +1,0 @@
-﻿  Source.cpp
-c:\users\edavi\source\repos\guide for adventuring\guide for adventuring\source.cpp(28): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\edavi\source\repos\guide for adventuring\guide for adventuring\source.cpp(45): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\edavi\source\repos\guide for adventuring\guide for adventuring\source.cpp(65): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
-c:\users\edavi\source\repos\guide for adventuring\guide for adventuring\source.cpp(991): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Guide For Adventuring.vcxproj -> C:\Users\edavi\source\repos\Guide For Adventuring\x64\Debug\Guide For Adventuring.exe
-  Guide For Adventuring.vcxproj -> C:\Users\edavi\source\repos\Guide For Adventuring\x64\Debug\Guide For Adventuring.pdb (Partial PDB)
