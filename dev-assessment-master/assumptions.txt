@@ -1,0 +1,4 @@
+Assumptions : 
+
+I have never heard of maven before doing this project.
+I ran the program in NetBeans and used it to compile and create the .jar file.
