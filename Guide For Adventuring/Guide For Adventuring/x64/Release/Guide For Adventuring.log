@@ -1,9 +1,0 @@
-﻿  Source.cpp
-Source.cpp(28): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-Source.cpp(45): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-Source.cpp(65): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
-Source.cpp(991): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Generating code
-  All 19 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  Guide For Adventuring.vcxproj -> C:\Users\edavi\source\repos\Guide For Adventuring\x64\Release\Guide For Adventuring.exe
