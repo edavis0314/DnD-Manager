@@ -6,4 +6,5 @@ The Compiler is a program that shows off a Lexical Analyzer and Parcer that can 
 
 The Guide for Adventuring is a program that showcases a different solution to C++'s time seeded rand function. This is using Dungeons and Dragons as a venue to show its ability to create random numbers without using a Sleep call to alter the time seed.
 
-The Videos listed the SIte Video Video are contains the site navigation for the project that I have been working on for the past year and a half for CCSO.
+In the Link below you can view the videos taken of the site navigation of the project I have been working on for CCSO for the past year.
+https://drive.google.com/drive/folders/1Z-R-RfPwqZQmT1Qg1t-z-k7ZEys74JcS?usp=sharing
