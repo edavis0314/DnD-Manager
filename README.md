@@ -8,3 +8,5 @@ The Guide for Adventuring is a program that showcases a different solution to C+
 
 In the Link below you can view the videos taken of the site navigation of the project I have been working on for CCSO for the past year.
 https://drive.google.com/drive/folders/1Z-R-RfPwqZQmT1Qg1t-z-k7ZEys74JcS?usp=sharing
+
+The Code Samples folder contains some of the generic functions I have made for my job at CCSO.
