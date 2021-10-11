@@ -10,3 +10,6 @@ In the Link below you can view the videos taken of the site navigation of the pr
 https://drive.google.com/drive/folders/1Z-R-RfPwqZQmT1Qg1t-z-k7ZEys74JcS?usp=sharing
 
 The Code Samples folder contains some of the generic functions I have made for my job at CCSO.
+
+Below is my linkedin account:
+https://www.linkedin.com/in/eric-davis-4bb10317b/
