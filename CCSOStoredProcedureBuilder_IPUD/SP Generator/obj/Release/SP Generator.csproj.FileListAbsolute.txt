@@ -1,0 +1,7 @@
+C:\Users\edavis\Desktop\CCSOStoredProcedureBuilder_IPUD\SP Generator\bin\Release\SP Generator.exe.config
+C:\Users\edavis\Desktop\CCSOStoredProcedureBuilder_IPUD\SP Generator\bin\Release\SP Generator.exe
+C:\Users\edavis\Desktop\CCSOStoredProcedureBuilder_IPUD\SP Generator\bin\Release\SP Generator.pdb
+C:\Users\edavis\Desktop\CCSOStoredProcedureBuilder_IPUD\SP Generator\obj\Release\SP Generator.csproj.AssemblyReference.cache
+C:\Users\edavis\Desktop\CCSOStoredProcedureBuilder_IPUD\SP Generator\obj\Release\SP Generator.csproj.CoreCompileInputs.cache
+C:\Users\edavis\Desktop\CCSOStoredProcedureBuilder_IPUD\SP Generator\obj\Release\SP Generator.exe
+C:\Users\edavis\Desktop\CCSOStoredProcedureBuilder_IPUD\SP Generator\obj\Release\SP Generator.pdb
