@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Process\DefineTable.cs" />
     <Compile Include="Process\Deactivate_SP.cs" />
+    <Compile Include="Process\Update_SP.cs" />
     <Compile Include="Process\Pull_SP.cs" />
     <Compile Include="Process\Insert_SP.cs" />
     <Compile Include="Program.cs" />
@@ -57,8 +58,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Object\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

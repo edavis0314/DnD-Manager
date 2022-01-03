@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
+using System.IO;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -27,12 +28,25 @@ namespace SP_Generator
 					Console.WriteLine("");
 					Console.WriteLine("Tables did not find information needed. Please confirm that the Tables have Index Values and all columns are filled out before continuing. ");
 				}
+				else
+				{
+					StringBuilder storedProcedures = new StringBuilder();
+					storedProcedures.Append(Insert_SP.Invoke(connectionString, tableIndex, tableColumn));
+					storedProcedures.Append(Pull_SP.Invoke(connectionString, tableIndex));
+					storedProcedures.Append(Deactivate_SP.Invoke(connectionString, tableIndex, tableColumn));
+					storedProcedures.Append(Update_SP.Invoke(connectionString, tableIndex, tableColumn));
 
-				StringBuilder storedProcedures = new StringBuilder();
-				storedProcedures.Append(Insert_SP.Invoke(connectionString, tableIndex, tableColumn));
-				storedProcedures.Append(Pull_SP.Invoke(connectionString, tableIndex));
-				storedProcedures.Append(Deactivate_SP.Invoke(connectionString, tableIndex, tableColumn));
+					Console.WriteLine("");
+					Console.WriteLine("");
+					Console.WriteLine("Please Enter the location you want the file stored.");
+					string filePath = Console.ReadLine() + @"\SP_Output" + DateTime.Now.ToString("yyyyMMddHHmmss") + ".txt";
+					File.WriteAllText(@filePath, storedProcedures.ToString());
+					Console.WriteLine("");
+					Console.WriteLine("Printed to file location: " + @filePath);
+					Console.WriteLine("");
+					Console.WriteLine("");
 
+				}
 
 				//This is for closing or restarting the process
 				Console.WriteLine("All process have been completed.");
@@ -70,7 +84,11 @@ namespace SP_Generator
 					var key = Console.ReadKey(true);
 					if (key.Key == ConsoleKey.Enter)
 						break;
-					password += key.KeyChar;
+
+					if (key.Key == ConsoleKey.Backspace)
+						password = password.Substring(0,password.Length-1);
+					else
+						password += key.KeyChar;
 				}
 				Console.WriteLine("");
 				Console.WriteLine("");
