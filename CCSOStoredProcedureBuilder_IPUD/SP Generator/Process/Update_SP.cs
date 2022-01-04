@@ -108,15 +108,45 @@ namespace SP_Generator
 			isFirstColumn = true;
 			foreach (DataRow columnName in column.Rows)
 			{
-				if (!Convert.ToBoolean(columnName["isIndex"]) && index["TableName"].ToString().Equals(columnName["TableName"].ToString()))
+				string argumentLine = "";
+				if (index["TableName"].ToString().Equals(columnName["TableName"].ToString()))
 				{
-					if (isFirstColumn)
+					if (!Convert.ToBoolean(columnName["isIndex"]) && index["TableName"].ToString().Equals(columnName["TableName"].ToString()))
 					{
-						isFirstColumn = false;
-						updateStatement.AppendLine("SET	 [" + columnName["ColumnName"].ToString() + "] = @" + columnName["ColumnName"].ToString());
+						argumentLine += "[" + columnName["ColumnName"].ToString() + "] = CASE WHEN NOT @" + columnName["ColumnName"].ToString() + " = " +
+							"[" + columnName["ColumnName"].ToString() + "] AND NOT @" + columnName["ColumnName"].ToString() + " = ";
+
+
+						if (columnName["dataType"].ToString().Contains("varchar"))
+							argumentLine += @"''";
+						else if (columnName["dataType"].ToString().Contains("int"))
+							argumentLine += "0";
+						else if (columnName["dataType"].ToString().Contains("decimal"))
+							argumentLine += "0m";
+						else if (columnName["dataType"].ToString().Contains("bit"))
+							argumentLine = argumentLine += "[" + columnName["ColumnName"].ToString() + "] = CASE WHEN NOT @" + columnName["ColumnName"].ToString() + " = [" + columnName["ColumnName"].ToString() + "]";
+						else if (columnName["dataType"].ToString().Contains("datetime"))
+							argumentLine += "'01-01-0001 00:00:00'";
+						else if (columnName["dataType"].ToString().Contains("time"))
+							argumentLine += "'00:00:00'";
+						else
+						{
+							Console.WriteLine("dataType not found in application. Please check build and add if needed. Skipping SP Build.");
+							Console.WriteLine(columnName["dataType"].ToString());
+							Console.WriteLine("");
+							return updateStatement.Clear();
+						}
+
+						argumentLine += " THEN @" + columnName["ColumnName"].ToString() + "ELSE [" + columnName["ColumnName"].ToString() + "] END";
+
+						if (isFirstColumn)
+						{
+							isFirstColumn = false;
+							updateStatement.AppendLine("SET	 " + argumentLine + "");
+						}
+						else
+							updateStatement.AppendLine("	," + argumentLine + "");
 					}
-					else
-						updateStatement.AppendLine("	,[" + columnName["ColumnName"].ToString() + "] = @" + columnName["ColumnName"].ToString());
 				}
 			}
 
