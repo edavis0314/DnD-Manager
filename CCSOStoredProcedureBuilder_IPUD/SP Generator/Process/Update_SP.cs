@@ -124,7 +124,7 @@ namespace SP_Generator
 						else if (columnName["dataType"].ToString().Contains("decimal"))
 							argumentLine += "0m";
 						else if (columnName["dataType"].ToString().Contains("bit"))
-							argumentLine = argumentLine += "[" + columnName["ColumnName"].ToString() + "] = CASE WHEN NOT @" + columnName["ColumnName"].ToString() + " = [" + columnName["ColumnName"].ToString() + "]";
+							argumentLine = "[" + columnName["ColumnName"].ToString() + "] = CASE WHEN NOT @" + columnName["ColumnName"].ToString() + " = [" + columnName["ColumnName"].ToString() + "]";
 						else if (columnName["dataType"].ToString().Contains("datetime"))
 							argumentLine += "'01-01-0001 00:00:00'";
 						else if (columnName["dataType"].ToString().Contains("time"))
@@ -142,10 +142,10 @@ namespace SP_Generator
 						if (isFirstColumn)
 						{
 							isFirstColumn = false;
-							updateStatement.AppendLine("SET	 " + argumentLine + "");
+							updateStatement.AppendLine("SET		 " + argumentLine + "");
 						}
 						else
-							updateStatement.AppendLine("	," + argumentLine + "");
+							updateStatement.AppendLine("		," + argumentLine + "");
 					}
 				}
 			}
