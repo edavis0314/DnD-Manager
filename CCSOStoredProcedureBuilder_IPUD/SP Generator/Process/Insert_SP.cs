@@ -64,7 +64,12 @@ namespace SP_Generator
 				string argumentLine = "";
 				if (!Convert.ToBoolean(columnName["isIndex"]) && index["TableName"].ToString().Equals(columnName["TableName"].ToString()))
 				{
-					argumentLine += "@" + columnName["ColumnName"].ToString() + " " + columnName["dataType"].ToString() + " = ";
+					argumentLine += "@" + columnName["ColumnName"].ToString() + " " + columnName["dataType"].ToString();
+
+					if (columnName["dataType"].ToString().Contains("varchar"))
+						argumentLine += " (MAX)";
+
+					argumentLine += " = ";
 
 					if (columnName["dataType"].ToString().Contains("varchar"))
 						argumentLine += @"''";
