@@ -137,7 +137,7 @@ namespace SP_Generator
 							return updateStatement.Clear();
 						}
 
-						argumentLine += " THEN @" + columnName["ColumnName"].ToString() + "ELSE [" + columnName["ColumnName"].ToString() + "] END";
+						argumentLine += " THEN @" + columnName["ColumnName"].ToString() + " ELSE [" + columnName["ColumnName"].ToString() + "] END";
 
 						if (isFirstColumn)
 						{
