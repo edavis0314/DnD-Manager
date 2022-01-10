@@ -10,16 +10,18 @@ namespace SP_Generator
 	class Deactivate_SP
 	{
 		//might expand later to auto add to database
-		public static StringBuilder Invoke (string connectionString, DataTable Index, DataTable column)
+		public static StringBuilder Invoke (string connectionString, DataTable Index, DataTable Column)
 		{
 			Console.WriteLine("");
 			Console.WriteLine("Beginning to Create deactivate Statements");
 			Console.WriteLine("");
 			Console.WriteLine("");
 			Console.WriteLine("Press Enter to Begin.");
-			Console.WriteLine("");
-			Console.ReadLine();
-			StringBuilder output = GenerateList(connectionString, Index, column);
+			Console.WriteLine("Type 'Skip' to Skip Process");
+			string skip = Console.ReadLine().ToLower();
+			StringBuilder output = new StringBuilder();
+			if (!skip.Equals("skip"))
+				output = GenerateList(connectionString, Index, Column);
 
 			return output;
 		}
@@ -72,11 +74,23 @@ namespace SP_Generator
 			deactivateStatement.AppendLine("CREATE PROCEDURE gensp_Deactivate_" + index["TableName"].ToString());
 
 			deactivateStatement.AppendLine("	 @" + index["tableIndex"].ToString() + " int = 0");
+			deactivateStatement.AppendLine("	,@changeUser int = 0");
+			deactivateStatement.AppendLine("	,@dateChanged nvarchar (MAX) = '01-01-0001 00:00:00'");
+
 			deactivateStatement.AppendLine("AS");
 			deactivateStatement.AppendLine("BEGIN");
 			deactivateStatement.AppendLine("");
 			deactivateStatement.AppendLine("	SET NOCOUNT ON;");
 			deactivateStatement.AppendLine("");
+
+			deactivateStatement.AppendLine("		EXEC	[dbo].[gensp_Insert_changeHistory]");
+			deactivateStatement.AppendLine("				@tableChanged = N'" + index["TableName"].ToString() + "',");
+			deactivateStatement.AppendLine("				@fieldChanged = N'active', ");
+			deactivateStatement.AppendLine("				@tableIndexID = @" + index["tableIndex"].ToString() + ", ");
+			deactivateStatement.AppendLine("				@originalInfo = '1', ");
+			deactivateStatement.AppendLine("				@newInfo = '0', ");
+			deactivateStatement.AppendLine("				@userID = @changeUser, ");
+			deactivateStatement.AppendLine("				@dateTimeChanged = @dateChanged");
 
 			deactivateStatement.AppendLine("");
 			deactivateStatement.AppendLine("	UPDATE	[dbo].[" + index["TableName"].ToString() + "] ");
@@ -110,11 +124,24 @@ namespace SP_Generator
 			activateStatement.AppendLine("CREATE PROCEDURE gensp_Activate_" + index["TableName"].ToString());
 
 			activateStatement.AppendLine("	 @" + index["tableIndex"].ToString() + " int = 0");
+			activateStatement.AppendLine("	,@changeUser int = 0");
+			activateStatement.AppendLine("	,@dateChanged nvarchar (MAX) = '01-01-0001 00:00:00'");
+
 			activateStatement.AppendLine("AS");
 			activateStatement.AppendLine("BEGIN");
 			activateStatement.AppendLine("");
 			activateStatement.AppendLine("	SET NOCOUNT ON;");
 			activateStatement.AppendLine("");
+
+			activateStatement.AppendLine("		EXEC	[dbo].[gensp_Insert_changeHistory]");
+			activateStatement.AppendLine("				@tableChanged = N'" + index["TableName"].ToString() + "',");
+			activateStatement.AppendLine("				@fieldChanged = N'active', ");
+			activateStatement.AppendLine("				@tableIndexID = @" + index["tableIndex"].ToString() + ", ");
+			activateStatement.AppendLine("				@originalInfo = '0', ");
+			activateStatement.AppendLine("				@newInfo = '1', ");
+			activateStatement.AppendLine("				@userID = @changeUser, ");
+			activateStatement.AppendLine("				@dateTimeChanged = @dateChanged");
+
 
 			activateStatement.AppendLine("");
 			activateStatement.AppendLine("	UPDATE	[dbo].[" + index["TableName"].ToString() + "] ");

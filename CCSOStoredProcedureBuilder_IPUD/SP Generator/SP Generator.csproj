@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Process\DefineTable.cs" />
     <Compile Include="Process\Deactivate_SP.cs" />
+    <Compile Include="Process\RunSPCSharp.cs" />
     <Compile Include="Process\Update_SP.cs" />
     <Compile Include="Process\Pull_SP.cs" />
     <Compile Include="Process\Insert_SP.cs" />

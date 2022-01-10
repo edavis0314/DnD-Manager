@@ -17,9 +17,11 @@ namespace SP_Generator
 			Console.WriteLine("");
 			Console.WriteLine("");
 			Console.WriteLine("Press Enter to Begin.");
-			Console.WriteLine("");
-			Console.ReadLine();
-			StringBuilder output = GenerateList(connectionString, Index, Column);
+			Console.WriteLine("Type 'Skip' to Skip Process");
+			string skip = Console.ReadLine().ToLower();
+			StringBuilder output = new StringBuilder();
+			if (!skip.Equals("skip"))
+				output = GenerateList(connectionString, Index, Column);
 
 			return output;
 		}
