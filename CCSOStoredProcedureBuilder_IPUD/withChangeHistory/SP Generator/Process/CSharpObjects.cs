@@ -210,17 +210,17 @@ namespace SP_Generator
 				if (index["TableName"].ToString().Equals(columnName["TableName"].ToString()))
 				{
 					if (columnName["dataType"].ToString().Contains("varchar"))
-						argumentLine += "myRow[\"" + columnName["TableName"].ToString() + ".ToString();";
+						argumentLine += "myRow[\"" + columnName["columnName"].ToString() + "\"].ToString();";
 					else if (columnName["dataType"].ToString().Contains("int"))
-						argumentLine += "Convert.ToInt32(myRow[\"" + columnName["TableName"].ToString() + ".ToString());";
+						argumentLine += "Convert.ToInt32(myRow[\"" + columnName["columnName"].ToString() + "\"].ToString());";
 					else if (columnName["dataType"].ToString().Contains("decimal"))
-						argumentLine += "Convert.ToDecimal(myRow[\"" + columnName["TableName"].ToString() + ".ToString());";
+						argumentLine += "Convert.ToDecimal(myRow[\"" + columnName["columnName"].ToString() + "\"].ToString());";
 					else if (columnName["dataType"].ToString().Contains("bit"))
-						argumentLine += "Convert.ToBoolean(myRow[\"" + columnName["TableName"].ToString() + ".ToString());";
+						argumentLine += "Convert.ToBoolean(myRow[\"" + columnName["columnName"].ToString() + "\"].ToString());";
 					else if (columnName["dataType"].ToString().Contains("datetime"))
-						argumentLine += "Convert.ToDateTime(myRow[\"" + columnName["TableName"].ToString() + ".ToString());";
+						argumentLine += "Convert.ToDateTime(myRow[\"" + columnName["columnName"].ToString() + "\"].ToString());";
 					else if (columnName["dataType"].ToString().Contains("time"))
-						argumentLine += "Convert.ToDateTime(myRow[\"" + columnName["TableName"].ToString() + ".ToString());";
+						argumentLine += "Convert.ToDateTime(myRow[\"" + columnName["columnName"].ToString() + "\"].ToString());";
 					else
 					{
 						Console.WriteLine("dataType not found in application. Please check build and add if needed. Skipping SP Build.");
