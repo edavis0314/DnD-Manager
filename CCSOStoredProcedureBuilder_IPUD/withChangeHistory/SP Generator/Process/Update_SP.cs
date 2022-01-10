@@ -120,21 +120,24 @@ namespace SP_Generator
 			{
 				if (index["TableName"].ToString().Equals(columnName["TableName"].ToString()))
 				{
-					if (!Convert.ToBoolean(columnName["isIndex"]) && index["TableName"].ToString().Equals(columnName["TableName"].ToString()))
+					if (index["TableName"].ToString().Equals(columnName["TableName"].ToString()) && !(index["TableName"].ToString().Equals("dateAdded") || index["TableName"].ToString().Equals("createdUser")))
 					{
 						updateStatement.AppendLine("			IF	(NOT @" + columnName["ColumnName"].ToString() + " = (SELECT [" + columnName["ColumnName"].ToString()
 							+ "] FROM [dbo].[" + index["TableName"].ToString() + "] WHERE [" + index["TableIndex"].ToString() + "] = @" + index["TableIndex"].ToString()
 							+ ") AND NOT @" + columnName["ColumnName"].ToString() + " = '' )");
 						updateStatement.AppendLine("				BEGIN");
-												
+
+						updateStatement.AppendLine("					DECLARE @output" + columnName["ColumnName"].ToString() + " as nvarchar (MAX) = (SELECT [" + columnName["ColumnName"].ToString()
+							+ "] FROM [dbo].[" + index["TableName"].ToString() + "] WHERE [" + index["TableIndex"].ToString() + "] = @" + index["TableIndex"].ToString()
+							+ ")");
 						updateStatement.AppendLine("					EXEC	[dbo].[gensp_Insert_changeHistory]");
-						updateStatement.AppendLine("						@tableChanged = N'" + index["TableName"].ToString() + "',");
-						updateStatement.AppendLine("						@fieldChanged = N'" + columnName["ColumnName"].ToString() + "', ");
-						updateStatement.AppendLine("						@tableIndexID = @" + index["TableIndex"].ToString() + ", ");
-						updateStatement.AppendLine("						@originalInfo = [" + columnName["ColumnName"].ToString() + "], ");
-						updateStatement.AppendLine("						@newInfo = @" + columnName["ColumnName"].ToString() + ", ");
-						updateStatement.AppendLine("						@userID = @changeUser, ");
-						updateStatement.AppendLine("						@dateTimeChanged = @dateChanged");
+						updateStatement.AppendLine("							@tableChanged = N'" + index["TableName"].ToString() + "',");
+						updateStatement.AppendLine("							@fieldChanged = N'" + columnName["ColumnName"].ToString() + "', ");
+						updateStatement.AppendLine("							@tableIndexID = @" + index["TableIndex"].ToString() + ", ");
+						updateStatement.AppendLine("							@originalInfo = @output" + columnName["ColumnName"].ToString() + ", ");
+						updateStatement.AppendLine("							@newInfo = @" + columnName["ColumnName"].ToString() + ", ");
+						updateStatement.AppendLine("							@userID = @changeUser, ");
+						updateStatement.AppendLine("							@dateTimeChanged = @dateChanged");
 
 						updateStatement.AppendLine("				END");
 						updateStatement.AppendLine("");
@@ -152,7 +155,7 @@ namespace SP_Generator
 			foreach (DataRow columnName in column.Rows)
 			{
 				string argumentLine = "";
-				if (index["TableName"].ToString().Equals(columnName["TableName"].ToString()))
+				if (index["TableName"].ToString().Equals(columnName["TableName"].ToString()) && !(index["TableName"].ToString().Equals("dateAdded") || index["TableName"].ToString().Equals("createdUser")))
 				{
 					if (!Convert.ToBoolean(columnName["isIndex"]) && index["TableName"].ToString().Equals(columnName["TableName"].ToString()))
 					{

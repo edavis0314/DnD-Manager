@@ -35,6 +35,7 @@ namespace SP_Generator
 					storedProcedures.Append(Pull_SP.Invoke(connectionString, tableIndex, tableColumn));
 					storedProcedures.Append(Deactivate_SP.Invoke(connectionString, tableIndex, tableColumn));
 					storedProcedures.Append(Update_SP.Invoke(connectionString, tableIndex, tableColumn));
+					storedProcedures.Append(RunSPCSharp.Invoke(tableIndex, tableColumn));
 
 					Console.WriteLine("");
 					Console.WriteLine("");

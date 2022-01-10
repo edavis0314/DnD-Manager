@@ -86,9 +86,10 @@ namespace SP_Generator
 			pullStatement.AppendLine("		BEGIN");
 
 
-			declareLine = "			DECLARE	@ParametersUsed as nvarchar = '@" + index["TableIndex"].ToString() + " = ' + @" + index["TableIndex"].ToString() + " ";
+			declareLine = "			DECLARE	@ParametersUsed as nvarchar (MAX) = CONCAT('@" + index["TableIndex"].ToString() + " = ' , CAST(@" + index["TableIndex"].ToString() + " as nvarchar (MAX)) ";
 			if (!ifActive.Equals(""))
-				declareLine += "+ ' @" + ifActive + " = ' + @" + ifActive;
+				declareLine += ", ' @" + ifActive + " = ' , CAST(@" + ifActive + " as nvarchar (MAX))";
+			declareLine += ")";
 
 			pullStatement.AppendLine(declareLine);
 			
